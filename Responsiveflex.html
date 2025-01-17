@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .div1 {
+            background-color: slateblue;
+            padding: 30px;
+            border: 2px solid green;
+        }
+
+        .container1 {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+            background-color: aqua;
+            width: 200px;
+
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1">
+            <h3>This is Lorem Section</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ducimus doloremque veniam eum voluptate
+                at iusto. Repudiandae sunt mollitia ut commodi placeat sint dolor tempore labore temporibus nobis! Eos
+                sint optio dicta reprehenderit perspiciatis animi quasi dolor ab minus facilis omnis ipsam atque
+                suscipit recusandae, illo similique, labore neque, obcaecati ipsum sed officia! Quae maiores quia,
+                voluptas, beatae minima itaque eligendi veritatis numquam laborum illo quaerat nulla exercitationem
+                obcaecati voluptatibus ut neque repellat doloremque unde. Enim expedita animi excepturi eius
+                voluptatibus explicabo, quidem commodi molestiae assumenda, ullam ea aliquam maiores itaque ducimus
+                dolorem in? Itaque, rerum? Iusto ipsa magnam cumque.</p>
+        </div>
+        <div class="div1">
+            <h3>This is Lorem Section</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ducimus doloremque veniam eum voluptate
+                at iusto. Repudiandae sunt mollitia ut commodi placeat sint dolor tempore labore temporibus nobis! Eos
+                sint optio dicta reprehenderit perspiciatis animi quasi dolor ab minus facilis omnis ipsam atque
+                suscipit recusandae, illo similique, labore neque, obcaecati ipsum sed officia! Quae maiores quia,
+                voluptas, beatae minima itaque eligendi veritatis numquam laborum illo quaerat nulla exercitationem
+                obcaecati voluptatibus ut neque repellat doloremque unde. Enim expedita animi excepturi eius
+                voluptatibus explicabo, quidem commodi molestiae assumenda, ullam ea aliquam maiores itaque ducimus
+                dolorem in? Itaque, rerum? Iusto ipsa magnam cumque.</p>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+</body>
+
+</html>
